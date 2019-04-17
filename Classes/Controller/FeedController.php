@@ -203,7 +203,7 @@ class FeedController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
         $username = strtolower( $username );
         $url = "https://www.instagram.com/".trim($username)."/";
         $response = $this->connectAPI($url,'GET',NULL,FALSE,NULL);
-        $header = $response->getHeader();
+        //$header = $response->getHeader();
         $body = $response->getBody();
         $shards = explode( 'window._sharedData = ', $body);
         $json = explode( ';</script>', $shards[1] );
