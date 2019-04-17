@@ -1,5 +1,5 @@
 {
-  "name": "nitsan/ns-instagram",
+  "name": "mersdorf/ns-instagram",
   "type": "typo3-cms-extension",
   "description": "Plugin to display gallery, feeds and phototile with clean, customizable and responsive feeds from multiple Instagram accounts.",
   "homepage": "https://extensions.typo3.org/extension/ns_instagram/",
@@ -23,7 +23,7 @@
   },
   "replace": {
       "ns_instagram": "self.version",
-      "nitsan/ns-instagram": "self.version"
+      "mersdorf/ns-instagram": "self.version"
   },
   "extra": {
       "typo3/cms": {
