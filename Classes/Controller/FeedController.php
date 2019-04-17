@@ -109,7 +109,7 @@ class FeedController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
                 'hovercolor' => $hovercolor,
                 'hovertextcolor' => $hovertextcolor,
             );
-            $pageRenderer->addHeaderData('
+            $pageRenderer->addFooterData('
                 <script type="text/javascript">
                 $(document).ready(function(){
                     insta_init();
